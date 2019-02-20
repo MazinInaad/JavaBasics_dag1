@@ -11,7 +11,7 @@ public class HuisBuilder {
 	private Huis huis;
 
 	public HuisBuilder(Huis huis) {
-		File datafolder = new File("voorbeelden/opdrachten/huis");
+		File datafolder = new File("src/main/java/voorbeelden/opdrachten/huis");
 		System.out.println("Pad naar de plaatjes: " + datafolder.getAbsolutePath());
 		DataReader reader = new DataReader();
 		huisPlaatje = reader.read(new File(datafolder, "huis.png"));
