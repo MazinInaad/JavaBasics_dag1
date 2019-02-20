@@ -7,6 +7,6 @@ public class Methods {
     }
 
     public static void printSum(int intOne, int intTwo) {
-
+		//write your code here to print the sum of intOne and intTwo
     }
 }
