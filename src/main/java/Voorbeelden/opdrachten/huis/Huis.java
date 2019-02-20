@@ -1,6 +1,5 @@
 package Voorbeelden.opdrachten.huis;
 
-import deDeur.deur.Deur;
 
 import javax.swing.*;
 import java.awt.image.BufferedImage;
@@ -9,7 +8,7 @@ import java.util.List;
 
 public class Huis {
 
-	private List<Deur> deuren = new ArrayList<>();
+	private List<Deur> deuren = new ArrayList<Deur>();
 	
 	/**
 	 * Ontwerp een nieuw huis met 3 deuren naar buiten toe:
