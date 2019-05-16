@@ -2,16 +2,16 @@ package Extra_Opdrachten.rekenmachine;
 
 public class Berekening_C {
 	
-	public int som(int i, int j) {
-		int k = i + j;
-		return k;
-	}
-	
 	public static void main(String[] args) {
-		Berekening_C berekening = new Berekening_C();
-		String invoer = "Het product van 18 * 4 = ";
-		int i; // schrijf zelf de product() methode en vul de rest in
-		// Uitvoer naar scherm
+		Rekenmachine berekening = new Rekenmachine();
+		int somResultaat = berekening.som(42, 8);
+		int productResultaat; // schrijf de missende methodes en roep ze aan
+		int verschilResultaat;
+		int quotientResultaat;
+//		System.out.println("Het resultaat van 42 + 8 = " + somResultaat);
+//		System.out.println("Het resultaat van 42 * 8 = " + productResultaat);
+//		System.out.println("Het resultaat van 42 - 8 = " + verschilResultaat);
+//		System.out.println("Het resultaat van 42 / 8 = " + quotientResultaat);
 	}
 	
 }
